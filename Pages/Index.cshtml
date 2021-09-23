@@ -1,0 +1,65 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<br><br>
+<div class="text-center">
+    <h1>Welcome, to the World of Pastel Colours!</h1><br>
+    <p>@@CharmyPatel</p>
+    <p>E-Mail me at W0775861@@myscc.ca</p>
+</div>
+<br><br>
+
+@{
+    var colours = new [] {
+        new {
+            name = "Green Mint-Refreshing Dulzura.",
+            meaning = "Green is considered as the color of nature, and it brings out emotional harmony, stability and endurance.",
+            mix1 = "Nordic Look = Combine hue with Black & Gray.",
+            mix2 = "Warm Look = Combine hue with Beige and Mustard.",
+            hexcode = "#3EB489"
+        },
+        new {
+            name = "Pink-Sugar Cotton",
+            meaning = "Pink takes all the passion and energy of red and tempers it with the purity of white, leaving us with the color of tenderness and affection.",
+            mix1 = "Romantic and very Natural Look = Combine hue with pastel Green.",
+            mix2 = "Luminosity and amplitude = Combine hue with White.",
+            hexcode = "#FFBCD9"
+        }, 
+        new {
+            name = "Blue-And the Calm was Made.",
+            meaning = "Blue calls to mind feelings of calmness or serenity. It is often described as peaceful, tranquil, secure, and orderly.",
+            mix1 = "Sophisticated Air = Combine hue with Gray.",
+            mix2 = "Pure Calm = Combining turquoise with indigos and oil tones.",
+            hexcode = "#91B2C7"
+        },
+        new {
+            name = "Aquamarine",
+            meaning = "Aquamarine is also associated with tranquility, serenity, clarity, and harmony.",
+            mix1 = "Basic = Combination of White and Greenish Blue ",
+            mix2 = "Bold Look = Blueish-gray and orange",
+            hexcode = "#7FFFD4" 
+        },
+        new {
+            name = "Lilac",
+            meaning = "Lilac is a pale and soft violet shade that represents innocence, youthfulness, spirituality, and tranquility.",
+            mix1 = "Basic = Combination of Red and Blue",
+            mix2 = "Lighten = Combination of Red, White and Blue ",
+            hexcode = "#C8A2C8"
+        }
+    };
+}
+
+@for (var i = 0; i < colours.Length; i++)
+{
+    var pc = colours[i];
+    <text><strong>Pastel Colour Name: @pc.name <br></strong></text>
+    <text>Pastel Colour Meaning: @pc.meaning <br></text>
+    <text>Pastel Colour Combination Type 1: @pc.mix1 <br></text>
+    <text>Pastel Colour Combination Type 2: @pc.mix2 <br></text>
+    <text>Pastel Colour Hex Code: @pc.hexcode <br></text>
+    <br>
+}
+
