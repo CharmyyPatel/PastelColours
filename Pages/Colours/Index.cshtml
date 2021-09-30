@@ -1,0 +1,66 @@
+@page
+@model pastel.Pages_Colours.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Program1[0].name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Program1[0].PowerAcquisitionDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Program1[0].meaning)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Program1[0].mix1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Program1[0].mix2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Program1[0].hexcode)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Program1) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PowerAcquisitionDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.meaning)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.mix1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.mix2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.hexcode)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
