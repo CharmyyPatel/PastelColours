@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ST.CLAIR COLLEGE\\SEMESTER-2\\Introduction to ASP.NET\\PastelColours\\pastel.csproj": {}
+    "D:\\ST.CLAIR COLLEGE\\SEMESTER-2\\Introduction to ASP.NET\\Assignment2\\pastel.csproj": {}
   },
   "projects": {
-    "D:\\ST.CLAIR COLLEGE\\SEMESTER-2\\Introduction to ASP.NET\\PastelColours\\pastel.csproj": {
+    "D:\\ST.CLAIR COLLEGE\\SEMESTER-2\\Introduction to ASP.NET\\Assignment2\\pastel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ST.CLAIR COLLEGE\\SEMESTER-2\\Introduction to ASP.NET\\PastelColours\\pastel.csproj",
+        "projectUniqueName": "D:\\ST.CLAIR COLLEGE\\SEMESTER-2\\Introduction to ASP.NET\\Assignment2\\pastel.csproj",
         "projectName": "pastel",
-        "projectPath": "D:\\ST.CLAIR COLLEGE\\SEMESTER-2\\Introduction to ASP.NET\\PastelColours\\pastel.csproj",
+        "projectPath": "D:\\ST.CLAIR COLLEGE\\SEMESTER-2\\Introduction to ASP.NET\\Assignment2\\pastel.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\ST.CLAIR COLLEGE\\SEMESTER-2\\Introduction to ASP.NET\\PastelColours\\obj\\",
+        "outputPath": "D:\\ST.CLAIR COLLEGE\\SEMESTER-2\\Introduction to ASP.NET\\Assignment2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

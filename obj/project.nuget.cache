@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0RbkYnoEoEzBayNhHYlNsJgemwIASB3pFlv/r5Fj8huc9fVnHcyH7Lv3eEXTdGbMtsVfGSLZ+Oj+aBx2e6L2vw==",
+  "dgSpecHash": "5q0hjIrRE5P8vlANnlmJlvqpvtLQNBtFonvv0+5zJW23Ly7N9h2e5RI4UTnZtLVQQvL0JCDaewcOYun2MjPt1Q==",
   "success": true,
-  "projectFilePath": "D:\\ST.CLAIR COLLEGE\\SEMESTER-2\\Introduction to ASP.NET\\PastelColours\\pastel.csproj",
+  "projectFilePath": "D:\\ST.CLAIR COLLEGE\\SEMESTER-2\\Introduction to ASP.NET\\Assignment2\\pastel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
